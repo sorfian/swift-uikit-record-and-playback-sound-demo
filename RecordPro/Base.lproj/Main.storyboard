@@ -44,7 +44,6 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="Record"/>
                                 <connections>
-                                    <action selector="play:" destination="gtg-hn-e3b" eventType="touchUpInside" id="kMF-Y8-LB9"/>
                                     <action selector="record:" destination="gtg-hn-e3b" eventType="touchUpInside" id="oKc-am-ySG"/>
                                 </connections>
                             </button>
@@ -89,6 +88,7 @@
                         <outlet property="playButton" destination="g2D-ko-aSM" id="6k6-A4-cbL"/>
                         <outlet property="recordButton" destination="0We-Ga-Y14" id="Q9v-tL-DRK"/>
                         <outlet property="stopButton" destination="nTc-VF-jxK" id="ta3-TF-i6p"/>
+                        <outlet property="timeLabel" destination="l7p-aq-y3U" id="ahy-A8-avh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k6s-Fi-9PV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
